@@ -1,0 +1,31 @@
+### Get tasks
+GET http://laravel-vue-tasksmanager.test/api/tasks
+
+
+
+### Create task
+POST http://laravel-vue-tasksmanager.test/api/tasks
+content-type: application/json
+
+{
+    "title": "Task",
+    "description": "Sample task"
+}
+
+
+### Get task
+GET http://laravel-vue-tasksmanager.test/api/tasks/1
+
+
+### Update task
+PUT http://laravel-vue-tasksmanager.test/api/tasks/1
+content-type: application/json
+
+{
+    "title": "Task 1 edited",
+    "description": "Sample task - edited"
+}
+
+
+### Delete task
+DELETE http://laravel-vue-tasksmanager.test/api/tasks/2
